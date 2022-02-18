@@ -10,7 +10,10 @@
    @include tablets{
        width: 40%;
        margin-bottom: 15px;
-   };
+   }
+   @include phones{
+       width: 90%;
+   }
 }
 .partners__img{
     max-width: 200px;

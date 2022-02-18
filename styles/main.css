@@ -118,7 +118,7 @@ img {
   min-width: 13.8888888889rem; }
 
 .menu {
-  min-width: 70%; }
+  width: 70%; }
 
 .menu__list {
   display: flex;
@@ -307,6 +307,9 @@ img {
     .partners__item {
       width: 40%;
       margin-bottom: 15px; } }
+  @media screen and (max-width: 480px) {
+    .partners__item {
+      width: 90%; } }
 
 .partners__img {
   max-width: 200px;
