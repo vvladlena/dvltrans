@@ -24,11 +24,12 @@
     font-size: 28px;
     font-weight: bold;
     color: #fff;
+    flex-wrap: wrap;
 
 }
 
 .services__offer {
-    width: rem(235px);
+    max-width: rem(235px);
     height: rem(235px);
     background: $light;
     padding: 55px 40px 0 35px;

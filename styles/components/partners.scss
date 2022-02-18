@@ -6,6 +6,11 @@
 }
 .partners__item{
    width: 28%;
+
+   @include tablets{
+       width: 40%;
+       margin-bottom: 15px;
+   };
 }
 .partners__img{
     max-width: 200px;

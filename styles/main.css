@@ -123,7 +123,8 @@ img {
 .menu__list {
   display: flex;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  flex-wrap: wrap; }
 
 .header {
   display: flex;
@@ -155,7 +156,7 @@ img {
   margin-right: 5px; }
 
 .section {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
@@ -205,10 +206,11 @@ img {
   justify-content: center;
   font-size: 28px;
   font-weight: bold;
-  color: #fff; }
+  color: #fff;
+  flex-wrap: wrap; }
 
 .services__offer {
-  width: 13.0555555556rem;
+  max-width: 13.0555555556rem;
   height: 13.0555555556rem;
   background: #BC2930;
   padding: 55px 40px 0 35px; }
@@ -301,6 +303,10 @@ img {
 
 .partners__item {
   width: 28%; }
+  @media screen and (max-width: 768px) {
+    .partners__item {
+      width: 40%;
+      margin-bottom: 15px; } }
 
 .partners__img {
   max-width: 200px;
