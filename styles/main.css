@@ -194,7 +194,7 @@ img {
 .services__content {
   display: flex;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 0.8333333333rem;
   font-size: 20px; }
   .services__content-about {
     width: 20%; }
@@ -216,22 +216,22 @@ img {
     background: #1D2029; }
 
 .services__help {
-  margin-bottom: 15px; }
+  margin-bottom: 0.8333333333rem; }
 
 .services__offer-text {
   font-size: 24px; }
 
 #services__loading:hover {
-  background: url("../../img/sections/services/loading.jpg") center center/100% auto no-repeat; }
+  background: url("../img/sections/services/loading.jpg") center center/100% auto no-repeat; }
 
 #services__map:hover {
-  background: url("../../img/sections/services/map.jpg") center center/100% auto no-repeat; }
+  background: url("../img/sections/services/map.jpg") center center/100% auto no-repeat; }
 
 #services__truck:hover {
-  background: url("../../img/sections/services/truck.jpg") center center/100% auto no-repeat; }
+  background: url("../img/sections/services/truck.jpg") center center/100% auto no-repeat; }
 
 #services__weight:hover {
-  background: url("../../img/sections/services/weight.jpg") center center/auto 100% no-repeat; }
+  background: url("../img/sections/services/weight.jpg") center center/auto 100% no-repeat; }
 
 .services__offer-content {
   display: flex;
