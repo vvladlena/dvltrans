@@ -1,0 +1,35 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+    height: rem(106px);
+
+}
+
+.menu__right-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo__img{
+    width: 60px;
+    height: auto;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+.mail-img{
+    width: 28px;
+    height: auto;
+}
+.mail__image{
+    margin-right: 5px;
+
+}

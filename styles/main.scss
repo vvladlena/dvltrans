@@ -1,0 +1,52 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+//colors
+$dark: #1D2029;
+$light: #BC2930;
+$thirdColor:#F5F5F5;
+$decorColor: #E9B730;
+
+@import "media";
+
+
+//normalize
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100&family=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css");
+
+
+@import "layout";
+@import "components/hero";
+@import "components/menu";
+@import "components/header";
+@import "components/section";
+@import "components/button";
+@import "components/services";
+@import "components/advantages";
+@import "components/partners";
+@import "components/contact";
+@import "components/cars";
+@import "components/footer";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
