@@ -27,6 +27,7 @@
     background: $thirdColor;
     width: 100%;
     padding: 40px;
+    margin-bottom: rem(20px);
 }
 
 .contact__item {
@@ -64,4 +65,8 @@
     width: rem(36px);
     height: rem(36px);
     margin-right: rem(25px);
+}
+
+.contact__button{
+    padding: 40px;
 }

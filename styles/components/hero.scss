@@ -1,5 +1,8 @@
 .hero__background {
     // background: $thirdColor;
+    background-image: linear-gradient(to right, #fff 0%, transparent 100%), url('../img/sections/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
     padding: 2% 0;
     position: relative;
     // flex: 1;

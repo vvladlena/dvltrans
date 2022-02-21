@@ -69,6 +69,9 @@ img {
   min-width: 100%; }
 
 .hero__background {
+  background-image: linear-gradient(to right, #fff 0%, transparent 100%), url("../img/sections/hero-background.jpg");
+  background-size: cover;
+  background-position: center;
   padding: 2% 0;
   position: relative; }
   .hero__background:before {
@@ -125,6 +128,9 @@ img {
   justify-content: space-around;
   flex-wrap: wrap; }
 
+.menu__item:hover {
+  color: #BC2930; }
+
 .header {
   display: flex;
   align-items: center;
@@ -179,7 +185,6 @@ img {
   padding: 20px;
   color: #fff;
   border-radius: 50px;
-  box-shadow: 7px 5px 3px #808080;
   font-size: 22px; }
   .button:hover {
     background: #1D2029; }
@@ -339,7 +344,8 @@ img {
 .contact__list {
   background: #F5F5F5;
   width: 100%;
-  padding: 40px; }
+  padding: 40px;
+  margin-bottom: 1.1111111111rem; }
 
 .contact__item {
   margin-bottom: 20px; }
@@ -366,6 +372,9 @@ img {
   width: 2rem;
   height: 2rem;
   margin-right: 1.3888888889rem; }
+
+.contact__button {
+  padding: 40px; }
 
 .footer {
   background: #1D2029;
