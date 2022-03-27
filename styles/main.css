@@ -69,9 +69,10 @@ img {
   min-width: 100%; }
 
 .hero__background {
-  background-image: linear-gradient(to right, #fff 0%, transparent 100%), url("../img/sections/hero-background.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: linear-gradient(90deg, white 47%, rgba(255, 255, 255, 0) 65%), linear-gradient(0deg, white 5%, rgba(255, 255, 255, 0) 60%), url("../img/sections/hero-background.jpg");
+  background-size: auto 100%;
+  background-position: right;
+  background-repeat: no-repeat;
   padding: 2% 0;
   position: relative; }
   .hero__background:before {
@@ -91,7 +92,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30rem; }
+  height: 30rem;
+  width: 60%; }
+  @media screen and (max-width: 768px) {
+    .hero__content {
+      width: 80%; } }
+  @media screen and (max-width: 480px) {
+    .hero__content {
+      width: 100%; } }
 
 .hero__content-inner {
   height: 100%;
@@ -101,12 +109,12 @@ img {
   align-items: start; }
 
 .hero__text {
-  font-size: 28px;
+  font-size: 1.3888888889rem;
   padding-right: 1.6666666667rem; }
 
 .hero__description {
-  font-size: 28px;
-  margin-bottom: 20px;
+  font-size: 1.5555555556rem;
+  margin-bottom: 1.1111111111rem;
   padding-right: 1.1111111111rem; }
 
 .hero__content-image {
@@ -199,7 +207,7 @@ img {
   display: flex;
   justify-content: center;
   margin-bottom: 0.8333333333rem;
-  font-size: 20px; }
+  font-size: 1.1111111111rem; }
   .services__content-about {
     width: 20%; }
 
@@ -207,36 +215,52 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 28px;
+  font-size: 1.5555555556rem;
   font-weight: bold;
   color: #fff;
   flex-wrap: wrap; }
+  @media screen and (max-width: 768px) {
+    .services__offers {
+      width: 90%; } }
 
 .services__offer {
-  max-width: 13.0555555556rem;
+  width: 13.0555555556rem;
   height: 13.0555555556rem;
-  background: #BC2930;
-  padding: 55px 40px 0 35px;
-  text-align: center; }
-  .services__offer--even {
-    background: #1D2029; }
+  padding: 3.0555555556rem 2.2222222222rem 0 1.9444444444rem;
+  text-align: center;
+  position: relative; }
+  .services__offer::after {
+    position: absolute;
+    width: 13.0555555556rem;
+    height: 13.0555555556rem;
+    content: '';
+    top: 0;
+    right: 0;
+    background: #BC2930; }
+  .services__offer:hover::after {
+    background: none; }
+
+.services__offer--even::after {
+  background: #1D2029; }
 
 .services__help {
   margin-bottom: 0.8333333333rem; }
 
 .services__offer-text {
-  font-size: 27px; }
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 1; }
 
-#services__loading:hover {
+#services__loading {
   background: url("../img/sections/services/loading.jpg") center center/100% auto no-repeat; }
 
-#services__map:hover {
+#services__map {
   background: url("../img/sections/services/map.jpg") center center/100% auto no-repeat; }
 
-#services__truck:hover {
+#services__truck {
   background: url("../img/sections/services/truck.jpg") center center/100% auto no-repeat; }
 
-#services__weight:hover {
+#services__weight {
   background: url("../img/sections/services/weight.jpg") center center/auto 100% no-repeat; }
 
 .services__offer-content {
@@ -274,9 +298,7 @@ img {
   min-width: 30%;
   width: 13.8888888889rem;
   text-align: center;
-  margin: 0 30px 50px 0; }
-  .advantage:nth-child(3n+3), .advantage:last-child {
-    margin-right: 0; }
+  margin: 0 15px 50px 15px; }
 
 .advantage__title {
   font-weight: bold;
@@ -356,10 +378,6 @@ img {
   font-weight: bold;
   padding: 40px;
   font-size: 21px; }
-  .contact__inner-title--bottom {
-    color: #BC2930; }
-    .contact__inner-title--bottom:hover {
-      color: #1D2029; }
 
 .contact__link {
   display: flex;
@@ -375,6 +393,49 @@ img {
 
 .contact__button {
   padding: 40px; }
+
+.cars__list {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media screen and (max-width: 768px) {
+    .cars__list {
+      flex-direction: column; } }
+
+.car {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 27.7777777778rem;
+  text-align: center; }
+
+.car__image {
+  display: flex;
+  align-items: center;
+  min-width: 19.4444444444rem;
+  min-height: 11.1111111111rem; }
+  .car__image--img {
+    width: auto;
+    height: 100%; }
+
+.car__name {
+  font-size: 2.0555555556rem;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.car__size--desc {
+  font-weight: bold; }
+
+.car__addition {
+  text-transform: uppercase;
+  font-size: 1.3333333333rem; }
+
+.bx-wrapper {
+  width: 19.4444444444rem;
+  border: 0;
+  box-shadow: none;
+  margin-bottom: 0.8333333333rem; }
 
 .footer {
   background: #1D2029;

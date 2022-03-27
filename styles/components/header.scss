@@ -11,7 +11,10 @@
 .menu__right-part{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+.language-img{
+    border-radius: 100%;
 }
 
 .logo__img{
@@ -20,9 +23,9 @@
 }
 
 .mail{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-around;
     margin-right: 10px;
 }
 .mail-img{

@@ -10,7 +10,9 @@
     <meta name="keywords" content="tattoo, Wrocław, tatuaż, 13 wyspa, studio, salon, tatuatorzy, татуировка, Вроцлав">
     -->
     <title>DVL-TRANS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="./styles/main.css">
+
 </head>
 
 <body>
@@ -60,9 +62,9 @@
                                     adipiscing elit, sed do ei</div>
                                 <a href="#" class="button button--hero"> Napisz do nas &nbsp; &nbsp;></a>
                             </div>
-                            <div class="hero__content-image">
-                                <!-- <img src="./img/sections/hero.jpg" alt="" class="hero-img"> -->
-                            </div>
+                            <!-- <div class="hero__content-image"> -->
+                            <!-- <img src="./img/sections/hero.jpg" alt="" class="hero-img"> -->
+                            <!-- </div> -->
                         </div>
                     </div>
                 </div>
@@ -81,44 +83,23 @@
                     <div class="services__help">CO MOŻEMY ZAOFEROWAĆ</div>
                     <ul class="services__offers">
                         <li id="services__loading" class="services__offer">
-                            <!-- <div class="services__offer-decor"></div> -->
-                            <!-- <div class="services__offer-content"> -->
-                            <!-- <div class="services__offer-image"> -->
-                            <!-- <img src="./img/icons/ellipse.svg" alt="" class="ellipse-img"> -->
-                            <!-- </div> -->
                             <div class="services__offer-text">Załadunek i rozładunek towarów</div>
-                            <!-- </div> -->
                         </li>
                         <li id="services__map" class="services__offer services__offer--even">
-                            <!-- <div class="services__offer-decor"></div>
-                            <div class="services__offer-content">
-                                <div class="services__offer-image">
-                                    <img src="./img/icons/ellipse.svg" alt="" class="ellipse-img">
-                                </div> -->
                             <div class="services__offer-text">Transport drogowy po całej Europie</div>
-                            <!-- </div> -->
                         </li>
                         <li id="services__truck" class="services__offer">
-                            <!-- <div class="services__offer-decor"></div>
-                            <div class="services__offer-content">
-                                <div class="services__offer-image">
-                                    <img src="./img/icons/ellipse.svg" alt="" class="ellipse-img">
-                                </div> -->
                             <div class="services__offer-text">Transport ciężarowy</div>
-                            <!-- </div> -->
                         </li>
                         <li id="services__weight" class="services__offer services__offer--even">
-                            <!-- <div class="services__offer-decor"></div>
-                            <div class="services__offer-content">
-                                <div class="services__offer-image">
-                                    <img src="./img/icons/ellipse.svg" alt="" class="ellipse-img">
-                                </div> -->
                             <div class="services__offer-text">Do 1,5 ton masy załadunku</div>
-                            <!-- </div> -->
                         </li>
+
                     </ul>
                 </div>
             </section>
+
+
             <section id="advantages" class="section section__advantages">
                 <div class="container advantages__container">
                     <h1 class="section__title section__title--advantages">Nasze korzyści</h1>
@@ -168,10 +149,53 @@
                     </div>
                 </div>
             </section>
+
+
             <section id="cars" class="section section__cars">
                 <div class="container cars__container">
                     <h1 class="section__title section__title--cars">Pojazdy</h1>
+                    <ul class="cars__list">
+                        <li class="cars__item car">
+                            <div class="slider car__image">
+                                <div>
+                                    <img src="./img/cars/car1_top.png" alt="" class="car__image--img">
+                                </div>
+                                <div>
+                                    <img src="./img/cars/car1_bottom.png" alt="" class="car__image--img">
+                                </div>
+                            </div>
+                            <div class="car__name">Tautliner</div>
+                            <div class="car__description">Do 10 miejsc paletowych. Do 1,5 ton masy załadunku.</div>
+                            <div class="car__size">
+                                <div class="car__size--name">Rozmiary</div>
+                                <div class="car__size--desc">480x220x250 cm</div>
+                            </div>
+                            <div class="car__addition">+EDSCHa</div>
+                        </li>
+                        <li class="cars__item car">
+                            <div class="slider car__image">
+                                <div>
+                                    <img src="./img/cars/car2_top.png" alt="" class="car__image--img">
+                                </div>
+                                <div>
+                                    <img src="./img/cars/car2_bottom.png" alt="" class="car__image--img">
+                                </div>
+                            </div>
+                            <div class="car__name">Tautliner</div>
+                            <div class="car__description">Do 10 miejsc paletowych. Do 1,5 ton masy załadunku.</div>
+                            <div class="car__size">
+                                <div class="car__size--name">Rozmiary</div>
+                                <div class="car__size--desc">420x245x260 cm</div>
+                            </div>
+                            <div class="car__addition">TailLift+Pallet Jack</div>
+                        </li>
+                    </ul>
                 </div>
+
+
+
+
+
             </section>
             <section id="partners" class="section section__partners">
                 <div class="container partners__container">
@@ -283,7 +307,10 @@
 
         </div>
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="./js/slider.js"></script>
 </body>
+
 
 </html>
