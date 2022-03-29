@@ -70,10 +70,10 @@ img {
 
 .hero__background {
   background-image: linear-gradient(90deg, white 47%, rgba(255, 255, 255, 0) 65%), linear-gradient(0deg, white 5%, rgba(255, 255, 255, 0) 60%), url("../img/sections/hero-background.jpg");
+  height: 100vh;
   background-size: auto 100%;
   background-position: right;
   background-repeat: no-repeat;
-  padding: 2% 0;
   position: relative; }
   .hero__background:before {
     content: '';
@@ -244,7 +244,7 @@ label {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-bottom: 5%; }
+  margin-bottom: 2.2222222222rem; }
 
 .section__title {
   text-transform: uppercase;
@@ -268,6 +268,9 @@ label {
   font-size: 22px; }
   .button:hover {
     background: #1D2029; }
+
+.section__services {
+  height: auto; }
 
 .services__container {
   display: flex;

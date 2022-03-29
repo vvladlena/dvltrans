@@ -4,11 +4,13 @@
     linear-gradient(90deg, rgba(255,255,255,1) 47%, rgba(255,255,255,0) 65%),
     linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(255,255,255,0) 60%)
     ,url('../img/sections/hero-background.jpg');
+    height: 100vh;
     
     background-size: auto 100%;
     background-position: right;
     background-repeat: no-repeat;
-    padding: 2% 0;
+
+    // padding: 2% 0;
     position: relative;
     // flex: 1;
     &:before {
