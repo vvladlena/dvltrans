@@ -1,8 +1,10 @@
 .section{
     min-height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 5%;
 
 }
 .section__title{

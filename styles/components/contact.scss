@@ -2,11 +2,20 @@
     display: flex;
     align-items: center;
 
+    @include phones {
+        flex-direction: column;
+    }
+
 }
 
 .contact__image {
-    width: 390px;
-    height: 600px;
+    width: rem(390px);
+    height: rem(600px);
+
+    @include phones {
+        width: rem(400px);
+        height: rem(200px);
+    }
 }
 
 .contact-img {
@@ -21,12 +30,18 @@
     justify-content: space-between;
     min-height: 390px;
     flex: 1;
+
+    @include phones {
+        align-items: center;
+
+    }
 }
 
 .contact__list {
     background: $thirdColor;
     width: 100%;
-    padding: 40px;
+    padding: rem(40px);
+    font-size: rem(24px);
     margin-bottom: rem(20px);
 }
 
@@ -38,8 +53,8 @@
     text-transform: uppercase;
     color: $dark;
     font-weight: bold;
-    padding: 40px;
-    font-size: 21px;
+    padding: rem(40px);
+    font-size: rem(21px);
 
 
     // &--bottom {
@@ -54,9 +69,9 @@
 .contact__link {
     display: flex;
     align-items: center;
-    font-size: 25px;
+    font-size: rem(25px);
 
-    &:hover{
+    &:hover {
         color: $light;
     }
 }
@@ -67,6 +82,6 @@
     margin-right: rem(25px);
 }
 
-.contact__button{
+.contact__button {
     padding: 40px;
 }

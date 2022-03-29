@@ -1,6 +1,6 @@
 .button {
-    width: rem(220px);
-    height: rem(70px);
+    min-width: rem(220px);
+    min-height: rem(70px);
     background: $light;
     text-align: center;
     padding: 20px;
