@@ -22,12 +22,12 @@
     display: flex;
     align-items: center;
     min-width: rem(350px);
-    min-height: rem(200px);
+    height: auto;
 
-    @include tablets{
-        min-width: rem(250px);
-        height: auto;
-    }
+    // @include tablets{
+    //     min-width: rem(250px);
+    //     // height: auto;
+    // }
 
     &--img {
         width: auto;

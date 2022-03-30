@@ -1,13 +1,14 @@
 .bx-wrapper {
    width: rem(350px);
+   // height: auto;
     // height: rem(200px);
     border: 0;
     // background: red;
     box-shadow: none;
    margin-bottom: rem(15px);
 
-   @include tablets{
-      min-width: rem(250px);
-      height: auto;
-  }
+//    @include tablets{
+//       min-width: rem(250px);
+//       height: auto;
+//   }
 }

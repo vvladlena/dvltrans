@@ -1,13 +1,15 @@
-html{
+html {
     font-size: $baseFontSize;
 
-    @include tablets{
+    @include tablets {
         font-size: $baseFontSize - 1px;
     }
-    @include phones{
+
+    @include phones {
         font-size: $baseFontSize - 2px;
     }
 }
+
 html,
 body {
     height: 100%;
@@ -77,6 +79,8 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+
 
 img {
     display: block;
