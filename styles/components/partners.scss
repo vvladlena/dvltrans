@@ -3,6 +3,10 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    @include tablets{
+        justify-content: center;
+    }
 }
 .partners__item{
    width: 28%;

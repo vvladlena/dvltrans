@@ -24,8 +24,7 @@ body {
 .wrapper {
   position: relative;
   width: 100%;
-  min-height: 100%;
-  overflow: hidden; }
+  min-height: 100%; }
 
 .container {
   width: 95%;
@@ -402,6 +401,9 @@ label {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap; }
+  @media screen and (max-width: 768px) {
+    .partners__list {
+      justify-content: center; } }
 
 .partners__item {
   width: 28%; }
