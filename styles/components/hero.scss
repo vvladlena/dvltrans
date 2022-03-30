@@ -1,10 +1,14 @@
+.section__hero{
+    justify-content: start;
+}
+
+
 .hero__background {
     // background: $thirdColor;
     background-image:  
     linear-gradient(90deg, rgba(255,255,255,1) 47%, rgba(255,255,255,0) 65%),
     linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(255,255,255,0) 60%)
     ,url('../img/sections/hero-background.jpg');
-    height: 100vh;
     
     background-size: auto 100%;
     background-position: right;

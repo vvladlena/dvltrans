@@ -5,4 +5,9 @@
     // background: red;
     box-shadow: none;
    margin-bottom: rem(15px);
+
+   @include tablets{
+      min-width: rem(250px);
+      min-height: rem(100px);
+  }
 }

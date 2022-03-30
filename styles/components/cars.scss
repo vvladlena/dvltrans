@@ -24,6 +24,11 @@
     min-width: rem(350px);
     min-height: rem(200px);
 
+    @include tablets{
+        min-width: rem(250px);
+        min-height: rem(100px);
+    }
+
     &--img {
         width: auto;
         height: 100%;
