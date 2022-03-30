@@ -503,8 +503,7 @@ label {
   min-width: 19.4444444444rem;
   height: auto; }
   .car__image--img {
-    width: auto;
-    height: 100%; }
+    width: 100%; }
 
 .car__name {
   font-size: 2.0555555556rem;
