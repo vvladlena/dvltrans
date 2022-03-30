@@ -507,7 +507,7 @@ label {
   @media screen and (max-width: 768px) {
     .car__image {
       min-width: 13.8888888889rem;
-      min-height: 5.5555555556rem; } }
+      height: auto; } }
   .car__image--img {
     width: auto;
     height: 100%; }
@@ -532,7 +532,7 @@ label {
   @media screen and (max-width: 768px) {
     .bx-wrapper {
       min-width: 13.8888888889rem;
-      min-height: 5.5555555556rem; } }
+      height: auto; } }
 
 .footer {
   background: #1D2029;

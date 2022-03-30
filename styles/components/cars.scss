@@ -26,7 +26,7 @@
 
     @include tablets{
         min-width: rem(250px);
-        min-height: rem(100px);
+        height: auto;
     }
 
     &--img {
