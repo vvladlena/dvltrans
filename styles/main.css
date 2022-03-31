@@ -103,6 +103,9 @@ img {
     background: #BC2930;
     top: -14px;
     position: absolute; }
+  @media screen and (max-width: 768px) {
+    .hero__background {
+      background-position: center; } }
 
 .language-img {
   height: 32px;
@@ -201,6 +204,10 @@ img {
 
 label {
   cursor: pointer; }
+
+.nav__check:checked ~ .nav__back {
+  background-color: rgba(0, 0, 0, 0.2);
+  bottom: 0; }
 
 .nav__showmenu {
   display: none; }
@@ -406,20 +413,24 @@ label {
       justify-content: center; } }
 
 .partners__item {
-  width: 28%; }
+  width: 28%;
+  margin: 0 15px 50px 15px; }
   @media screen and (max-width: 768px) {
     .partners__item {
-      width: 40%;
-      margin-bottom: 15px; } }
+      width: 40%; } }
   @media screen and (max-width: 480px) {
     .partners__item {
-      width: 90%; } }
+      width: 90%;
+      margin-bottom: 30px; } }
 
 .partners__img {
   max-width: 200px;
   filter: grayscale(100%); }
   .partners__img:hover {
     filter: grayscale(0); }
+  @media screen and (max-width: 768px) {
+    .partners__img {
+      filter: grayscale(0); } }
 
 .contact__content {
   display: flex;
@@ -475,10 +486,13 @@ label {
   .contact__link:hover {
     color: #BC2930; }
 
-.contact-icon {
+.contact__icon {
   width: 2rem;
   height: 2rem;
   margin-right: 1.3888888889rem; }
+
+.contact-icon {
+  width: 100%; }
 
 .contact__button {
   padding: 40px; }
@@ -497,13 +511,14 @@ label {
   align-items: center;
   justify-content: space-around;
   height: 27.7777777778rem;
-  text-align: center; }
+  text-align: center;
+  padding: 10px; }
 
 .car__image {
   display: flex;
   align-items: center;
-  min-width: 19.4444444444rem;
-  height: auto; }
+  width: 19.4444444444rem;
+  height: 200px; }
   .car__image--img {
     width: 100%; }
 
@@ -521,9 +536,13 @@ label {
 
 .bx-wrapper {
   width: 19.4444444444rem;
+  height: 220px;
   border: 0;
   box-shadow: none;
   margin-bottom: 0.8333333333rem; }
+  @media screen and (max-width: 768px) {
+    .bx-wrapper {
+      height: auto; } }
 
 .footer {
   background: #1D2029;

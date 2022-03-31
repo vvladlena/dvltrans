@@ -26,6 +26,11 @@
         top: -14px;
         position: absolute;
     }
+
+    @include tablets{
+    background-position: center;
+
+    }
 }
 
 .language-img {

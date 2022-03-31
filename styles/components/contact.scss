@@ -76,10 +76,13 @@
     }
 }
 
-.contact-icon {
+.contact__icon {
     width: rem(36px);
     height: rem(36px);
     margin-right: rem(25px);
+}
+.contact-icon{
+    width: 100%;
 }
 
 .contact__button {
