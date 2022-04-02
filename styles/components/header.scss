@@ -1,39 +1,35 @@
-
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 22px;
     height: rem(106px);
-
 }
 
 
-.menu__right-part{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.language-img{
+
+.language-img {
     border-radius: 100%;
 }
 
-.logo__img{
+.logo__img {
     width: 60px;
     height: auto;
 }
 
-.mail{
+.mail {
     // display: flex;
     // align-items: center;
     // justify-content: space-around;
     margin-right: 10px;
 }
-.mail-img{
+
+.mail-img {
     width: 28px;
     height: auto;
 }
-.mail__image{
+
+.mail__image {
     margin-right: 5px;
 
 }
