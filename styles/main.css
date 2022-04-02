@@ -83,10 +83,6 @@ img {
   margin-bottom: 2.2222222222rem;
   font-size: 1.8333333333rem; }
 
-.section__title--hero {
-  text-align: start;
-  margin-bottom: 0; }
-
 .header {
   display: flex;
   align-items: center;
@@ -140,14 +136,15 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30rem;
+  height: 35.5555555556rem;
   width: 60%; }
   @media screen and (max-width: 768px) {
     .hero__content {
       width: 80%; } }
   @media screen and (max-width: 480px) {
     .hero__content {
-      width: 100%; } }
+      width: 100%;
+      height: 46.6666666667rem; } }
 
 .hero__content-inner {
   height: 100%;
@@ -156,13 +153,16 @@ img {
   justify-content: space-around;
   align-items: start; }
 
+.section__title--hero {
+  text-align: start;
+  margin-bottom: 0; }
+
 .hero__text {
   font-size: 1.3888888889rem;
   padding-right: 1.6666666667rem; }
 
 .hero__description {
   font-size: 1.5555555556rem;
-  margin-bottom: 1.1111111111rem;
   padding-right: 1.1111111111rem; }
 
 .hero__content-image {
