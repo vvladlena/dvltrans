@@ -231,11 +231,18 @@ img {
     top: 0;
     right: 0;
     background: #BC2930; }
-  .services__offer:hover::after {
-    background: none; }
 
 .services__offer--even::after {
   background: #1D2029; }
+
+.services__offer--active::after {
+  position: absolute;
+  width: 13.0555555556rem;
+  height: 13.0555555556rem;
+  content: '';
+  top: 0;
+  right: 0;
+  background: none; }
 
 .services__help {
   margin-bottom: 0.8333333333rem; }

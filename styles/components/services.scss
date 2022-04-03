@@ -57,17 +57,30 @@ height: auto;
         right: 0;
         background: $light;  
     }
-    &:hover::after{
-        background: none;
+    // &:hover::after{
+    //     background: none;
 
-    }
+    // }
 }
-
 .services__offer--even{
     &::after {
         background: $dark;  
     }
 }
+
+.services__offer--active{
+    &::after {
+        position: absolute;
+        width: rem(235px);
+        height: rem(235px);
+        content: '';
+        top: 0;
+        right: 0;
+        background: none;
+
+    }
+}
+
 
 .services__help {
     margin-bottom: rem(15px);
