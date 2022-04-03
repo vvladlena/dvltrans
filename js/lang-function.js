@@ -19,5 +19,14 @@ function changeLanguage() {
     select.value = hash;
     document.querySelector('title').innerHTML = langArr['title-name'][hash];
     document.querySelector('.lng-hero-title').innerHTML = langArr['hero-title'][hash];
+    // document.querySelector('.lng-hero-description').innerHTML = langArr['hero-description'][hash];
+
+    for (let key in langArr) {
+        let elem = document.querySelector('.lng-' + key);
+        if (elem) {
+            elem.innerHTML = langArr[key][hash];
+        }
+
+    }
 }
 changeLanguage();

@@ -13,4 +13,11 @@ const langArr={
         "deu": "INTERNATIONALES TRANSPORTUNTERNEHMEN",
         "ru": "Международная транспортная компания",
     },
+    "hero-description":{
+        "pl": "Kilka słów o firmie Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei",
+        "en": "Some words about company Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "ua": "Декiлька слiв про компанию Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei",
+        "deu": "Ein paar Worte zum Unternehmen Lorem ipsum dolor sit amet, consectetur",
+        "ru": "несколько слов про компанию Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d",
+    },
 }
