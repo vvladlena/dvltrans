@@ -1,7 +1,7 @@
 .partners__list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 
     @include tablets {
@@ -11,7 +11,11 @@
 
 .partners__item {
     width: 28%;
-    margin: 0 15px 50px 15px;
+    margin: 0 rem(25px) rem(50px) rem(15px);
+
+    &:last-child{
+        margin-right: 0;
+    }
 
 
     @include tablets {
@@ -20,7 +24,9 @@
 
     @include phones {
         width: 90%;
-        margin-bottom: 30px;
+        margin-bottom: rem(30px);
+        margin-right: 0;
+
 
     }
 }

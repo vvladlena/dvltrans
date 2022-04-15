@@ -1,8 +1,9 @@
-.section__services{
+.section__services {
     // position: relative;
     // height: 100vh;
-height: auto;
+    height: auto;
 }
+
 .services__container {
     display: flex;
     flex-direction: column;
@@ -16,6 +17,7 @@ height: auto;
     justify-content: center;
     margin-bottom: rem(15px);
     font-size: rem(20px);
+
 
     &-about {
         width: 20%;
@@ -47,38 +49,60 @@ height: auto;
     padding: rem(55px) rem(40px) 0 rem(35px);
     text-align: center;
     position: relative;
+    background: $light;
+    font-size: rem(26px);
+    // transition: font-style 1s;
 
-    &::after {
-        position: absolute;
-        width: rem(235px);
-        height: rem(235px);
-        content: '';
-        top: 0;
-        right: 0;
-        background: $light;  
+    &:hover {
+       font-style: italic;
+    // text-shadow: 3px 3px #fff;
     }
+
+    &:nth-child(3){
+        padding: rem(70px) rem(40px) 0 rem(35px);
+
+    }
+
+    // &::after {
+    //     position: absolute;
+    //     width: rem(235px);
+    //     height: rem(235px);
+    //     content: '';
+    //     top: 0;
+    //     right: 0;
+    //     background: $light;  
+    // }
     // &:hover::after{
     //     background: none;
 
     // }
 }
-.services__offer--even{
-    &::after {
-        background: $dark;  
-    }
+
+.services__offer--even {
+    // &::after {
+    background: $dark;
+    // }
 }
 
-.services__offer--active{
-    &::after {
-        position: absolute;
-        width: rem(235px);
-        height: rem(235px);
-        content: '';
-        top: 0;
-        right: 0;
-        background: none;
+.services__offer--active {
+
+
+    @include tablets {
+       font-style: italic;
+        
 
     }
+
+    // &::after {
+    // position: absolute;
+    // width: rem(235px);
+    // height: rem(235px);
+    // content: '';
+    // top: 0;
+    // right: 0;
+    // background: none;
+
+    // }
 }
 
 
@@ -86,25 +110,25 @@ height: auto;
     margin-bottom: rem(15px);
 }
 
-.services__offer-text {
-    font-size: rem(27px);
-    position: relative;
-    z-index: 1;
-}
+// .services__offer-text {
+//     font-size: rem(27px);
+//     position: relative;
+//     z-index: 1;
+// }
 
-#services__loading {
-    background: url('../img/sections/services/loading.jpg') center center/100% auto no-repeat;
-}
+// #services__loading {
+//     background: url('../img/sections/services/loading.jpg') center center/100% auto no-repeat;
+// }
 
-#services__map {
-    background: url('../img/sections/services/map.jpg') center center/100% auto no-repeat;
-}
-#services__truck {
-    background: url('../img/sections/services/truck.jpg') center center/100% auto no-repeat;
-}
-#services__weight {
-    background: url('../img/sections/services/weight.jpg') center center/auto 100% no-repeat;
-}
+// #services__map {
+//     background: url('../img/sections/services/map.jpg') center center/100% auto no-repeat;
+// }
+// #services__truck {
+//     background: url('../img/sections/services/truck.jpg') center center/100% auto no-repeat;
+// }
+// #services__weight {
+//     background: url('../img/sections/services/weight.jpg') center center/auto 100% no-repeat;
+// }
 
 
 
