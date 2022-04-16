@@ -50,15 +50,19 @@
     text-align: center;
     position: relative;
     background: $light;
-    font-size: rem(26px);
-    // transition: font-style 1s;
+    font-size: rem(25px);
 
-    &:hover {
-       font-style: italic;
-    // text-shadow: 3px 3px #fff;
+    // transition: font-style 1s;
+    &-text {
+        &:hover {
+            //    font-style: italic;
+            transform: scale(1.2);
+            // text-shadow: 3px 3px #fff;
+        }
     }
 
-    &:nth-child(3){
+
+    &:nth-child(3) {
         padding: rem(70px) rem(40px) 0 rem(35px);
 
     }
@@ -84,12 +88,12 @@
     // }
 }
 
-.services__offer--active {
+.services__offer--active .services__offer-text {
 
 
     @include tablets {
-       font-style: italic;
-        
+        transform: scale(1.2);
+
 
     }
 
