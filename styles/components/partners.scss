@@ -1,12 +1,11 @@
+
 .partners__list {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 
-    @include tablets {
-        justify-content: center;
-    }
+   
 }
 
 .partners__item {
@@ -22,13 +21,11 @@
         width: 40%;
     }
 
-    @include phones {
-        width: 90%;
-        margin-bottom: rem(30px);
-        margin-right: 0;
-
-
-    }
+    // @include phones {
+    //     width: 90%;
+    //     margin-bottom: rem(30px);
+    //     margin-right: 0;
+    // }
 }
 
 .partners__img {
@@ -42,6 +39,10 @@
 
     @include tablets {
         filter: grayscale(0);
+    }
 
+    @include phones{
+        width: 100px;
+        height: auto;
     }
 }

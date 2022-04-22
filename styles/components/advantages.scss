@@ -18,6 +18,10 @@
     text-align: center;
     margin: 0 rem(15px) rem(80px) rem(15px);
 
+    @include phones{
+        max-width: 40%;
+    }
+
    
   
 }
@@ -47,3 +51,4 @@
     min-width: 14px;
     min-height: 14px;
 }
+

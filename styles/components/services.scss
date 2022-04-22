@@ -20,8 +20,8 @@
 
 
     &-about {
-        width: 20%;
         margin-right: 10px;
+        min-width: rem(70px);
     }
 }
 
@@ -58,6 +58,12 @@
             //    font-style: italic;
             transform: scale(1.2);
             // text-shadow: 3px 3px #fff;
+        }
+
+        @include tablets{
+            &:hover{
+                transform: none;
+            }
         }
     }
 

@@ -73,8 +73,10 @@ img {
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-bottom: 2.2222222222rem; }
+  justify-content: center; }
+  @media screen and (max-width: 768px) {
+    .section {
+      margin-bottom: 2.2222222222rem; } }
 
 .section__title {
   text-transform: uppercase;
@@ -82,6 +84,10 @@ img {
   text-align: center;
   margin-bottom: 2.2222222222rem;
   font-size: 1.9444444444rem; }
+
+@media screen and (max-width: 480px) {
+  .section__partners {
+    min-height: auto; } }
 
 .header {
   display: flex;
@@ -196,8 +202,8 @@ img {
   margin-bottom: 0.8333333333rem;
   font-size: 1.1111111111rem; }
   .services__content-about {
-    width: 20%;
-    margin-right: 10px; }
+    margin-right: 10px;
+    min-width: 3.8888888889rem; }
 
 .services__offers {
   display: flex;
@@ -221,6 +227,9 @@ img {
   font-size: 1.3888888889rem; }
   .services__offer-text:hover {
     transform: scale(1.2); }
+  @media screen and (max-width: 768px) {
+    .services__offer-text:hover {
+      transform: none; } }
   .services__offer:nth-child(3) {
     padding: 3.8888888889rem 2.2222222222rem 0 1.9444444444rem; }
 
@@ -270,6 +279,9 @@ img {
   width: 13.8888888889rem;
   text-align: center;
   margin: 0 0.8333333333rem 4.4444444444rem 0.8333333333rem; }
+  @media screen and (max-width: 480px) {
+    .advantage {
+      max-width: 40%; } }
 
 .advantage__title {
   font-weight: bold;
@@ -297,9 +309,6 @@ img {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap; }
-  @media screen and (max-width: 768px) {
-    .partners__list {
-      justify-content: center; } }
 
 .partners__item {
   width: 28%;
@@ -309,11 +318,6 @@ img {
   @media screen and (max-width: 768px) {
     .partners__item {
       width: 40%; } }
-  @media screen and (max-width: 480px) {
-    .partners__item {
-      width: 90%;
-      margin-bottom: 1.6666666667rem;
-      margin-right: 0; } }
 
 .partners__img {
   max-width: 200px;
@@ -323,6 +327,10 @@ img {
   @media screen and (max-width: 768px) {
     .partners__img {
       filter: grayscale(0); } }
+  @media screen and (max-width: 480px) {
+    .partners__img {
+      width: 100px;
+      height: auto; } }
 
 .contact__content {
   display: flex;
