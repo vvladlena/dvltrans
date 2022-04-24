@@ -284,7 +284,8 @@ img {
 
 .advantage__title {
   font-weight: bold;
-  font-size: 24px; }
+  font-size: 24px;
+  max-width: 170px; }
 
 .advantage__image {
   position: relative;
