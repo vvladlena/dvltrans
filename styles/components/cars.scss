@@ -16,6 +16,7 @@
     height: rem(500px);
     text-align: center;
     padding: 10px;
+    background: #F5F5F5;
 
 }
 
@@ -24,6 +25,8 @@
     align-items: center;
     width: rem(350px);
     height: 200px;
+    background: #fff;
+
 
     // @include tablets{
     //     min-width: rem(250px);
@@ -36,7 +39,7 @@
 }
 
 .car__name {
-    font-size: rem(33px);
+    font-size: rem(19px);
     font-weight: bold;
     text-transform: uppercase;
 }

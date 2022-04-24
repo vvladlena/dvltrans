@@ -30,16 +30,16 @@
 
 .partners__img {
     max-width: 200px;
-    filter: grayscale(100%);
+    // filter: grayscale(100%);
 
-    &:hover {
-        filter: grayscale(0);
+    // &:hover {
+    //     filter: grayscale(0);
 
-    }
+    // }
 
-    @include tablets {
-        filter: grayscale(0);
-    }
+    // @include tablets {
+    //     filter: grayscale(0);
+    // }
 
     @include phones{
         width: 100px;

@@ -14,7 +14,7 @@ const langArr={
         "ru": "Международная транспортная компания",
     },
     "hero-description":{
-        "pl": "Jako doświadczeni spedytorzy stawiamy na SZYBKOŚĆ, JAKOŚĆ I WYGODE DLA KLIENTÓW",
+        "pl": "Jako doświadczeni spedytorzy stawiamy na SZYBKOŚĆ, JAKOŚĆ I WYGODĘ DLA KLIENTÓW",
         "en": "Some words about company Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "ua": "Декiлька слiв про компанию Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei",
         "deu": "Ein paar Worte zum Unternehmen Lorem ipsum dolor sit amet, consectetur",

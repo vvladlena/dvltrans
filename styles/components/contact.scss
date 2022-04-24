@@ -11,6 +11,7 @@
 .contact__image {
     width: rem(390px);
     height: rem(600px);
+    margin-right: 20px;
 
     @include phones {
         width: rem(400px);
@@ -88,4 +89,5 @@
 
 .contact__button {
     padding: 40px;
+    text-align: right;
 }
