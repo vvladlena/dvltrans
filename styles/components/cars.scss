@@ -17,6 +17,15 @@
     text-align: center;
     padding: 10px;
     background: #F5F5F5;
+    margin-right: 10px;
+
+    &:last-child{
+        margin-right: 0;
+    }
+
+    @include phones{
+        margin-right: 0;
+    }
 
 }
 
@@ -24,7 +33,7 @@
     display: flex;
     align-items: center;
     width: rem(350px);
-    height: 200px;
+    height: rem(200px);
     background: #fff;
 
 
@@ -39,7 +48,7 @@
 }
 
 .car__name {
-    font-size: rem(19px);
+    font-size: rem(17px);
     font-weight: bold;
     text-transform: uppercase;
 }
