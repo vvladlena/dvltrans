@@ -429,9 +429,6 @@ img {
   margin-right: 10px;
   border: 1px solid #fff;
   position: relative; }
-  .car:hover {
-    text-decoration: underline;
-    border: 1px solid #1D2029; }
   .car:last-child {
     margin-right: 0; }
   @media screen and (max-width: 768px) {

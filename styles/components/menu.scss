@@ -4,11 +4,10 @@
     @include tablets {
         margin: 0;
     }
-
 }
 
-.menu--footer{
-    @include tablets{
+.menu--footer {
+    @include tablets {
         display: none;
     }
 }
@@ -74,6 +73,7 @@
 .nav__check {
     display: none;
 }
+
 label {
     cursor: pointer;
 }

@@ -25,10 +25,10 @@
     border: 1px solid #fff;
     position: relative;
 
-    &:hover {
-        text-decoration: underline;
-        border: 1px solid $dark;
-    }
+    // &:hover {
+    //     text-decoration: underline;
+    //     border: 1px solid $dark;
+    // }
 
 
     &:last-child {
@@ -45,16 +45,12 @@
 .car__image {
     display: flex;
     align-items: center;
-    // width: rem(350px);
     height: rem(200px);
     width: 100%;
     background: #fff;
 
 
-    // @include tablets{
-    //     min-width: rem(250px);
-    //     // height: auto;
-    // }
+   
 
     &--img {
         max-width: 100%;
