@@ -70,6 +70,11 @@
 .section__title--hero {
     text-align: start;
     margin-bottom: 0;
+
+    @include tablets {
+        font-size: rem(28px);
+
+    }
 }
 
 
@@ -79,12 +84,20 @@
     padding-right: rem(30px);
     // margin-bottom: 20px;
 
+    @include tablets {
+        font-size: rem(23px);
+    }
+
 }
 
 .hero__description {
     font-size: rem(28px);
     // margin-bottom: 20px;
     padding-right: rem(20px);
+
+    @include tablets {
+        font-size: rem(25px);
+    }
 
 }
 

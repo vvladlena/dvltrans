@@ -156,14 +156,23 @@ img {
 .section__title--hero {
   text-align: start;
   margin-bottom: 0; }
+  @media screen and (max-width: 768px) {
+    .section__title--hero {
+      font-size: 1.5555555556rem; } }
 
 .hero__text {
   font-size: 1.3888888889rem;
   padding-right: 1.6666666667rem; }
+  @media screen and (max-width: 768px) {
+    .hero__text {
+      font-size: 1.2777777778rem; } }
 
 .hero__description {
   font-size: 1.5555555556rem;
   padding-right: 1.1111111111rem; }
+  @media screen and (max-width: 768px) {
+    .hero__description {
+      font-size: 1.3888888889rem; } }
 
 .hero__content-image {
   max-width: 23.8888888889rem;
@@ -427,7 +436,8 @@ img {
     margin-right: 0; }
   @media screen and (max-width: 768px) {
     .car {
-      margin-right: 0; } }
+      margin-right: 0;
+      margin-bottom: 1.1111111111rem; } }
 
 .car__image {
   display: flex;
