@@ -458,7 +458,7 @@ img {
   font-size: 1.3333333333rem; }
 
 .menu {
-  width: 70%; }
+  width: 75%; }
   @media screen and (max-width: 768px) {
     .menu {
       margin: 0; } }
