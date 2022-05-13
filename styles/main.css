@@ -224,18 +224,30 @@ img {
   flex-wrap: wrap; }
   @media screen and (max-width: 768px) {
     .services__offers {
-      width: 90%; } }
+      width: 90%;
+      border: 1px solid #fff; } }
 
 .services__offer {
   width: 13.0555555556rem;
   height: 13.0555555556rem;
-  padding: 3.0555555556rem 2.2222222222rem 0 1.9444444444rem;
+  padding: 0 0.5555555556rem;
   text-align: center;
   position: relative;
   background: #BC2930;
-  font-size: 1.3888888889rem; }
+  font-size: 1.3333333333rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; }
+  @media screen and (max-width: 768px) {
+    .services__offer {
+      border: 0.5px solid #fff; } }
+
+.services__offer-text {
+  max-width: 100%;
+  word-wrap: break-word; }
   .services__offer-text:hover {
-    transform: scale(1.2); }
+    transform: scale(1.1); }
   @media screen and (max-width: 768px) {
     .services__offer-text:hover {
       transform: none; } }
@@ -292,9 +304,10 @@ img {
       max-width: 40%; } }
 
 .advantage__title {
+  max-width: 100%;
   font-weight: bold;
-  font-size: 24px;
-  max-width: 170px; }
+  font-size: 1.2777777778rem;
+  word-wrap: break-word; }
 
 .advantage__image {
   position: relative;
@@ -446,16 +459,11 @@ img {
     max-width: 100%; }
 
 .car__name {
-  font-size: 0.9444444444rem;
   font-weight: bold;
   text-transform: uppercase; }
 
 .car__size--desc {
   font-weight: bold; }
-
-.car__addition {
-  text-transform: uppercase;
-  font-size: 1.3333333333rem; }
 
 .menu {
   width: 75%; }

@@ -4,34 +4,34 @@ const langArr={
 "menu-services":{
     "pl": "Usługi",
     "en": "Services",
-    "de": "Leistung",
+    "de": "Leistungen",
 },
 "menu-advantages":{
     "pl": "Nasze korzyści",
-    "en": "Our benefits",
+    "en": "Benefits",
     "de": "Vorteile",
 },
 "menu-cars":{
     "pl": "Pojazdy",
-    "en": "Transport",
-    "de": "Transport",
+    "en": "Vehicles",
+    "de": "Fahrzeuge",
 },
 "menu-partners":{
     "pl": "Partnerzy",
     "en": "Partners",
-    "de": "Unsere Partner",
+    "de": "Partner",
 },
 "menu-contact":{
     "pl": "Kontakt",
-    "en": "Contacts",
-    "de": "Kontakte",
+    "en": "Contact",
+    "de": "Kontakt",
 },
 
 //h1
 "h1-services":{
     "pl": "Usługi",
     "en": "Services",
-    "de": "Leistung",
+    "de": "Leistungen",
 },
 "h1-advantages":{
     "pl": "Nasze korzyści",
@@ -40,8 +40,8 @@ const langArr={
 },
 "h1-cars":{
     "pl": "Pojazdy",
-    "en": "Transport",
-    "de": "Transport",
+    "en": "Vehicles",
+    "de": "Fahrzeuge",
 },
 "h1-partners":{
     "pl": "Partnerzy",
@@ -144,7 +144,21 @@ const langArr={
 
 
 //cars
-
+"size-1":{
+    "pl": "Rozmiary",
+    "en": "Size",
+    "de": "Größe",
+},
+"size-2":{
+    "pl": "Rozmiary",
+    "en": "Size",
+    "de": "Größe",
+},
+"size-3":{
+    "pl": "Rozmiary",
+    "en": "Size",
+    "de": "Größe",
+},
 "car-1":{
     "pl": "Plandeka z podnoszonym dachem",
     "en": "Tautliner with raised roof",
@@ -168,6 +182,7 @@ const langArr={
     "en": "Contact us",
     "de": "Kontaktieren Sie uns",
 },
+
 
 
 //menu-footer

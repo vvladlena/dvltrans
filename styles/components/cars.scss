@@ -25,11 +25,6 @@
     border: 1px solid #fff;
     position: relative;
 
-    // &:hover {
-    //     text-decoration: underline;
-    //     border: 1px solid $dark;
-    // }
-
 
     &:last-child {
         margin-right: 0;
@@ -58,18 +53,20 @@
 }
 
 .car__name {
-    font-size: rem(17px);
+    // font-size: rem(17px);
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .car__size {
     &--desc {
+        // font-size: rem(17px);
+
         font-weight: bold;
     }
 }
 
-.car__addition {
-    text-transform: uppercase;
-    font-size: rem(24px);
-}
+// .car__addition {
+//     text-transform: uppercase;
+//     font-size: rem(24px);
+// }

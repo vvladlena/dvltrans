@@ -22,6 +22,7 @@
     width: rem(250px);
     text-align: center;
     margin: 0 rem(15px) rem(80px) rem(15px);
+    // position: relative;
 
     @include phones{
         max-width: 40%;
@@ -32,9 +33,12 @@
 }
 
 .advantage__title {
+    max-width: 100%;
     font-weight: bold;
-    font-size: 24px;
-    max-width: 170px;
+    font-size: rem(23px);
+    // max-width: 170px;
+    word-wrap: break-word;
+
 }
 
 .advantage__image {

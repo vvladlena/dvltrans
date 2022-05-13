@@ -34,6 +34,7 @@
 
     @include tablets {
         width: 90%;
+        border: 1px solid #fff;
 
     }
 
@@ -42,24 +43,35 @@
 .services__offer {
     width: rem(235px);
     height: rem(235px);
-    padding: rem(55px) rem(40px) 0 rem(35px);
+    padding: 0 rem(10px);
     text-align: center;
     position: relative;
     background: $light;
-    font-size: rem(25px);
+    font-size: rem(24px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 
-    &-text {
-        &:hover {
-            transform: scale(1.2);
-        }
+    @include tablets {
+        border: 0.5px solid #fff;
 
-        @include tablets{
-            &:hover{
-                transform: none;
-            }
-        }
+    }
+}
+
+.services__offer-text {
+    max-width: 100%;
+    word-wrap: break-word;
+
+    &:hover {
+        transform: scale(1.1);
     }
 
+    @include tablets {
+        &:hover {
+            transform: none;
+        }
+    }
 
     // &:nth-child(3) {
     //     padding: rem(70px) rem(40px) 0 rem(35px);
