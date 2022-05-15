@@ -198,5 +198,16 @@ var langArr = {
     "pl": "Kontakt",
     "en": "Contacts",
     "de": "Kontakte"
+  },
+  //button1
+  "button-1": {
+    "pl": "Napisz do nas &nbsp; &nbsp;>",
+    "en": "Contact us &nbsp; &nbsp;>",
+    "de": "Kontaktieren Sie uns &nbsp; &nbsp;>"
+  },
+  "button-2": {
+    "pl": "Zadać pytanie &nbsp; &nbsp;>",
+    "en": "Contact us &nbsp; &nbsp;>",
+    "de": "Kontaktieren Sie uns &nbsp; &nbsp;>"
   }
 };
