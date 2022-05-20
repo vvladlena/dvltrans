@@ -1,20 +1,92 @@
-.footer {
-    background: $dark;
-    width: 100%;
-    position: absolute;
-    height: rem(64px);
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-.footer__container{
+footer {
+    color: $light;
+    height: rem(150px);
+    // position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    color: #fff;
-    height: rem(68px);
+    justify-content: space-between;
+    font-size: rem(26px);
+    flex-wrap: wrap;
 
 }
-.contact-mail--bottom{
-   filter: invert(100%);
+
+.footer__container {
+    width: 100%;
+    border-top: rem(1px) solid rgba(102, 102, 102, .5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--left {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+.footer__logo{
+    margin-right: 10%;
+}
+
+.footer__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+
+    @include tablets {
+        flex-direction: column;
+    }
+
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+
+    @include tablets {
+        margin-right: 0;
+    }
+}
+
+.footer__address{
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    @include tablets{
+        flex-direction: column;
+    }
+    
+    .address-street{
+        margin-right: 10px;
+        @include tablets{
+        margin-right: 0;
+        }
+    }
+
+    
+   
+}
+
+.footer__phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-icon {
+        margin-right: 2%;
+    }
+
+    @include tablets {
+        // justify-content: flex-end;
+        margin-bottom: 5px;
+    }
+
+}
+
+.phone-icon {
+    width: rem(18px);
+    height: rem(18px);
 }

@@ -1,0 +1,32 @@
+.dropdown {
+    position: relative;
+    display: flex;
+    font-size: rem(18px);
+    justify-content: flex-end;
+    align-items: start;
+    
+}
+.dropdown__btn{
+   height: rem(20px);
+    font-size: rem(18px);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba($thirdColor, .3);
+    min-width: rem(200px);
+    z-index: 1;
+    padding: rem(5px);
+    border-radius: 5%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-align: center;
+}
+.dropdown:hover .dropdown__btn {
+    display: none;
+}
+.dropdown-content__day{
+    font-weight: 500;
+}
