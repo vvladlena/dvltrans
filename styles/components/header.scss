@@ -1,30 +1,22 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    font-size: rem(26px);
+    justify-content: space-around;
+    font-size: 22px;
+    height: rem(106px);
 }
 
-.phone-number {
-    // display: block; 
-    // white-space: nowrap;
-    text-decoration: none;
+.logo__img {
+    width: 60px;
+    height: auto;
 }
 
-.header__right-part {
-    height: rem(40px);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: baseline;
-    white-space: nowrap;
+.mail {
 
+    margin-right: 10px;
 }
 
-
-
-.header__right-part{
-    @include tablets {
-        display: none;
-    }
+.contact-mail {
+    width: 30px;
+    height: auto;
 }
