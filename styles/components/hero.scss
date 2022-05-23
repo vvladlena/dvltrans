@@ -1,0 +1,101 @@
+.section__hero {
+    justify-content: start;
+}
+
+.hero__background {
+    background-image:
+        linear-gradient(90deg, rgba(255, 255, 255, 1) 47%, rgba(255, 255, 255, 0) 65%),
+        linear-gradient(0deg, rgba(255, 255, 255, 1) 3%, rgba(255, 255, 255, 0) 50%), url('../img/sections/hero-background.jpg');
+
+    background-size: auto 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &:before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 28px;
+        background: $light;
+        top: -14px;
+        position: absolute;
+    }
+
+    @include tablets {
+        background-position: center;
+
+    }
+}
+
+.language-img {
+    height: 32px;
+    width: 32px;
+}
+
+.hero__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: rem(640px);
+    width: 61%;
+
+    @include tablets {
+        width: 80%;
+    }
+
+    @include phones {
+        width: 100%;
+        height: rem(840px);
+    }
+}
+
+.hero__content-inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+
+.section__title--hero {
+    text-align: start;
+    margin-bottom: 0;
+
+    @include tablets {
+        font-size: rem(28px);
+
+    }
+}
+
+.hero__text {
+    font-size: rem(25px);
+    padding-right: rem(30px);
+
+    @include tablets {
+        font-size: rem(23px);
+    }
+
+}
+
+.hero__description {
+    font-size: rem(28px);
+    padding-right: rem(20px);
+
+    @include tablets {
+        font-size: rem(25px);
+    }
+}
+
+.hero__content-image {
+    max-width: rem(430px);
+    max-height: rem(430px);
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    min-width: rem(250px);
+}

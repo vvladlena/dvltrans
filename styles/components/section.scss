@@ -1,0 +1,31 @@
+.section {
+    // min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: rem(90px);
+
+
+    @include tablets {
+        margin-bottom: rem(40px);
+
+    }
+
+}
+
+.section__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: rem(52px);
+    font-size: rem(35px);
+}
+
+.section__partners{
+    @include phones{
+        min-height: auto;
+
+    }
+}
+

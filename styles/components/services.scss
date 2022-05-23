@@ -1,0 +1,126 @@
+.section__services {
+    height: auto;
+}
+
+.services__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services__content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: rem(15px);
+    font-size: rem(22px);
+
+
+    &-about {
+        margin-right: 10px;
+        min-width: rem(70px);
+    }
+}
+
+.services__offers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: rem(28px);
+    font-weight: bold;
+    color: #fff;
+    flex-wrap: wrap;
+
+
+    @include tablets {
+        width: 90%;
+        border: 1px solid #fff;
+
+    }
+
+}
+
+.services__offer {
+    width: rem(235px);
+    height: rem(235px);
+    padding: 0 rem(10px);
+    text-align: center;
+    position: relative;
+    background: $light;
+    font-size: rem(24px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    @include tablets {
+        border: 0.5px solid #fff;
+
+    }
+}
+
+.services__offer-text {
+    max-width: 100%;
+    word-wrap: break-word;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    @include tablets {
+        &:hover {
+            transform: none;
+        }
+    }
+
+    // &:nth-child(3) {
+    //     padding: rem(70px) rem(40px) 0 rem(35px);
+
+    // }
+
+    // &::after {
+    //     position: absolute;
+    //     width: rem(235px);
+    //     height: rem(235px);
+    //     content: '';
+    //     top: 0;
+    //     right: 0;
+    //     background: $light;  
+    // }
+    // &:hover::after{
+    //     background: none;
+
+    // }
+}
+
+.services__offer--even {
+    background: $dark;
+}
+
+.services__help {
+    margin-bottom: rem(15px);
+    font-size: 24px;
+}
+
+.services__offer-content {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+
+.services__offer-image {
+    padding: 5px;
+}
+
+.ellipse-img {
+    width: 10px;
+    height: 10px;
+}
+
+.services__offer-decor {
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    margin-bottom: 15px;
+}
