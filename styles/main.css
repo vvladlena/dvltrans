@@ -220,10 +220,10 @@ img {
   justify-content: center;
   font-size: 1.5555555556rem;
   font-weight: bold;
-  color: #fff; }
+  color: #fff;
+  flex-wrap: wrap; }
   @media screen and (max-width: 768px) {
     .services__offers {
-      flex-wrap: wrap;
       width: 90%;
       border: 1px solid #fff; } }
 
@@ -231,10 +231,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 13.0555555556rem;
-  width: 25%;
+  width: 13.0555555556rem;
   height: 13.0555555556rem;
-  padding: 0.5555555556rem;
+  padding: 0 0.5555555556rem;
   text-align: center;
   position: relative;
   background: #BC2930;
@@ -242,8 +241,7 @@ img {
   position: relative; }
   @media screen and (max-width: 768px) {
     .services__offer {
-      border: 0.5px solid #fff;
-      width: auto; } }
+      border: 0.5px solid #fff; } }
 
 .services__offer-text {
   max-width: 100%;
