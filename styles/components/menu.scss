@@ -6,11 +6,6 @@
     }
 }
 
-.menu--footer {
-    @include tablets {
-        display: none;
-    }
-}
 
 .menu__list {
     display: flex;

@@ -21,7 +21,7 @@ body {
 }
 
 body {
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "Questrial", sans-serif;
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -139,9 +139,9 @@ img {
 }
 
 .hero__background {
-  background-image: linear-gradient(90deg, white 47%, rgba(255, 255, 255, 0) 65%), linear-gradient(0deg, white 3%, rgba(255, 255, 255, 0) 50%), url("../img/sections/hero-background.jpg");
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1) 30%, white 60%), linear-gradient(0deg, white 3%, rgba(255, 255, 255, 0) 50%), url("../img/sections/hero-background.jpg");
   background-size: auto 100%;
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -282,20 +282,35 @@ img {
 @media screen and (max-width: 768px) {
   .services__offers {
     width: 90%;
+    border: 1px solid #fff;
   }
 }
 
 .services__offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 13.0555555556rem;
   height: 13.0555555556rem;
-  padding: 3.0555555556rem 2.2222222222rem 0 1.9444444444rem;
+  padding: 0 0.5555555556rem;
   text-align: center;
   position: relative;
   background: #BC2930;
-  font-size: 1.3888888889rem;
+  font-size: 1.3333333333rem;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .services__offer {
+    border: 0.5px solid #fff;
+  }
+}
+
+.services__offer-text {
+  max-width: 100%;
+  word-wrap: break-word;
 }
 .services__offer-text:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 @media screen and (max-width: 768px) {
   .services__offer-text:hover {
@@ -366,9 +381,10 @@ img {
 }
 
 .advantage__title {
+  max-width: 100%;
   font-weight: bold;
-  font-size: 24px;
-  max-width: 170px;
+  font-size: 1.2777777778rem;
+  word-wrap: break-word;
 }
 
 .advantage__image {
@@ -442,6 +458,7 @@ img {
   .contact__image {
     width: 22.2222222222rem;
     height: 11.1111111111rem;
+    margin-right: 0;
   }
 }
 
@@ -508,6 +525,11 @@ img {
   padding: 40px;
   text-align: right;
 }
+@media screen and (max-width: 480px) {
+  .contact__button {
+    margin-bottom: 20px;
+  }
+}
 
 .cars__container {
   max-width: 1100px;
@@ -560,7 +582,6 @@ img {
 }
 
 .car__name {
-  font-size: 0.9444444444rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -569,23 +590,12 @@ img {
   font-weight: bold;
 }
 
-.car__addition {
-  text-transform: uppercase;
-  font-size: 1.3333333333rem;
-}
-
 .menu {
-  width: 70%;
+  width: 75%;
 }
 @media screen and (max-width: 768px) {
   .menu {
     margin: 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .menu--footer {
-    display: none;
   }
 }
 
@@ -698,16 +708,4 @@ label {
   bottom: 0;
   left: 0;
   right: 0;
-}
-
-.footer__container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  color: #fff;
-  height: 3.7777777778rem;
-}
-
-.contact-mail--bottom {
-  filter: invert(100%);
 }

@@ -40,9 +40,12 @@
     justify-content: center;
     height: rem(640px);
     width: 61%;
+    padding-left: rem(10px);
 
     @include tablets {
         width: 80%;
+        padding: 0;
+
     }
 
     @include phones {
@@ -71,7 +74,7 @@
 }
 
 .hero__text {
-    font-size: rem(25px);
+    font-size: rem(28px);
     padding-right: rem(30px);
 
     @include tablets {
