@@ -117,7 +117,7 @@ img {
   justify-content: start; }
 
 .hero__background {
-  margin-top: 3.6666666667rem;
+  margin-top: 3.7222222222rem;
   background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1) 30%, white 60%), linear-gradient(0deg, white 3%, rgba(255, 255, 255, 0) 50%), url("../img/sections/hero-background.jpg");
   background-size: auto 100%;
   background-position: center;
